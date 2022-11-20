@@ -1,6 +1,5 @@
-function mul(a,b)
+function mul()
 {
-    return a*b;
+    console.log("Hello Node.js!");
 }
-var c = mul(4,5);
-console.log("multiplication is: ",c);
+mul();
